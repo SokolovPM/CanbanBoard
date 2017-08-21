@@ -1,0 +1,26 @@
+.form {
+  width: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+  padding: 20px;
+  background-color: #f1c40f;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 11;
+}
+
+.text {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.button {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  margin: 0 10px;
+}

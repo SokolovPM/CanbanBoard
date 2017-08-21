@@ -1,0 +1,85 @@
+.column {
+  &-status {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Special Elite', cursive;
+  }
+}
+
+.task {
+  box-shadow:0 3px 5px -3px #000;
+  color: black;
+  font-family: 'Permanent Marker';
+  font-size:16px;
+  min-height: 200px;
+  margin: 0 20px 10px 20px;
+  padding: 10px;
+  z-index: 3;
+  border-radius: 0 0px 200px 7px/ 0 200px 15px 250px;
+
+  &-container {
+    margin-bottom: 40px;
+  }
+
+  &-header {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  &-description {
+    min-height: 50px;
+    margin-bottom: 10px
+  }
+
+  &-subtask {
+    cursor: pointer;
+  }
+}
+
+.status {
+  &-link {
+    cursor: pointer;
+
+    &:hover {
+      /*color: #A7A7AA;*/
+    }
+  }
+
+  &-row {
+    height: 20px;
+  }
+}
+
+.subtask {
+  padding: 10px;
+  margin: 0 20px 5px 60px;
+  box-shadow:0 3px 5px -3px #000;
+  color: black;
+  font-family: 'Permanent Marker';
+  font-size:16px;
+  min-height: 100px;
+  z-index: 1;
+
+  &-delete {
+    cursor: pointer;
+  }
+
+  &-description {
+    min-height: 55px;
+  }
+}
+
+.task, .subtask {
+  &-todo {
+    background-color:#ff9;
+  }
+
+  &-inprogress {
+    background-color: #FF50A8;
+  }
+
+  &-done {
+    background-color: #85FF05;
+  }
+}

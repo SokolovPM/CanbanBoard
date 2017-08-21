@@ -1,0 +1,9 @@
+{
+  "canban.header.add.project": "Новый проект",
+  "canban.header.edit.project": "Изменить проект",
+  "canban.header.delete.project": "Удалить проект",
+  "canban.header.back.to.project.board": "К списку задач",
+  "canban.header.back.to.project.list": "К списку проектов",
+  "canban.header.add.task": "Добавить задачу",
+  "canban.header.edit.task": "Изменить задачу"
+}

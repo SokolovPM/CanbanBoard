@@ -1,0 +1,20 @@
+{
+  "canban.task.info.title": "name",
+  "canban.task.info.description": "description",
+  "canban.task.info.status": "status",
+  "canban.task.info.author": "author",
+  "canban.task.info.user": "executor",
+  "canban.task.button.change": "change",
+  "canban.task.button.add.subtask.add": "add subtask",
+
+  "canban.task.button.add.subtask.save": "save",
+  "canban.task.button.add.subtask.cancel": "cancel",
+  "canban.task.info.subtask.delete": "delete",
+
+  "canban.task.save.button.save": "save",
+  "canban.task.save.button.cancel": "cancel",
+
+  "canban.task.new.input.name": "Task name",
+  "canban.task.new.input.description": "Task description",
+  "canban.task.new.input.executor": "Executor"
+}

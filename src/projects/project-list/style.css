@@ -1,0 +1,64 @@
+.project {
+  &-title {
+    color: black;
+    cursor: pointer;
+    font-family: 'Special Elite', cursive;
+
+    &:hover {
+      color: #777;
+    }
+  }
+
+  &-description{
+    margin-top: 20px;
+    height: 90px;
+    color: black;
+    overflow: hidden;
+    font-family: 'Special Elite', cursive;
+  }
+
+  &-control {
+    cursor: pointer;
+    color: black;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 20px;
+
+    &:hover {
+      color: #777;
+    }
+
+    &-block {
+      text-align: right;
+    }
+  }
+}
+
+.folder {
+  display: inline-block;
+	background: #ffd018;
+	width: 300px;
+	height: 200px;
+	position: relative;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+	&:before,&:after {
+		content: '';
+		position: absolute;
+		bottom: 100%;
+  }
+	&:before {
+		left: 0;
+		width: 40%;
+		height: 20px;
+		background: #d9b61d;
+  }
+	&:after {
+		right: 0;
+		width: 60%;
+		height: 10px;
+		background: #d9b61d;
+  }
+}

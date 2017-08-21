@@ -1,0 +1,10 @@
+{
+  "canban.projects.button.add": "add project",
+  "canban.projects.delete": "delete",
+  "canban.projects.change": "change",
+
+  "canban.project.add.name": "Project name",
+  "canban.project.add.description": "Project description",
+  "canban.projects.button.save": "save",
+  "canban.projects.button.cancel": "cancel"
+}

@@ -1,0 +1,9 @@
+{
+  "canban.board.go.home": "HOME",
+  "canban.board.button.add.task": "add task",
+  "canban.board.task.link.in.progress": "to work &#9658;",
+  "canban.board.task.link.back.in.list": "&#9668; to the list",
+  "canban.board.task.link.done": "finish &#9658;",
+  "canban.board.task.link.back.in.progress": "&#9668; back to work",
+  "canban.board.task.link.delete": "delete"
+}

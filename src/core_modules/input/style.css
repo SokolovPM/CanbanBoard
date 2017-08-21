@@ -1,0 +1,18 @@
+.input, .text-area {
+  all: none;
+}
+
+.input, .text-area {
+  width: 100%;
+  color: black;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0;
+  border-bottom: 2px solid #B3AFAF;
+}
+
+.input:focus, .input:active, .input:hover,
+.text-area:focus, .text-area:active, .text-area:hover {
+  outline: none;
+}
